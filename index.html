@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <main>
+        <section class="head">
+            <div class="container_head_logo">
+                <img class="logo" src="./images/Pokemon_logo.png" alt="Logo pokemon">    
+            </div>
+            <div class="container_head_h1">
+                <h1 class="head_h1">Bienvenido a tu aplicacion pokedex online</h1>
+            </div>
+            <div class="container_head_p">
+                <p class="head_p">En esta aplicacion podras buscar las caracteristicas de cualquier pokemon que gustes ya sea por nombre o por su numero de la pokedex nacional</p>
+            </div>
+        </section>
+        <section id="frame">
+            <p class="section_p">Escribe el nombre o el numero del pokemon que quieres consultar</p>
+            <div class="input">
+                <input type="text" id="nombre" placeholder="pikachu"/>
+                <button class="btn_name" onclick="consult()">Consultar</button>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
